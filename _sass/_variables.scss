@@ -48,6 +48,11 @@
   --spacer-2: calc(var(--spacer) * 1.5);
   --spacer-3: calc(var(--spacer) * 3);
 }
+// Example trial theme
+[data-theme="trial"] {
+  --body-bg: #FBF0DB;
+  --body-color: #F8FDFF;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
